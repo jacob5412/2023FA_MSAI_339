@@ -1,0 +1,357 @@
+[
+    {
+        "title": "Pinocchio",
+        "year": 1976,
+        "runtime": 73
+    },
+    {
+        "title": "Allegro non troppo",
+        "year": 1976,
+        "runtime": 75
+    },
+    {
+        "title": "Wizards",
+        "year": 1977,
+        "runtime": 80
+    },
+    {
+        "title": "The Twelve Tasks of Asterix",
+        "year": 1976,
+        "runtime": 82
+    },
+    {
+        "title": "Nutcracker Fantasy",
+        "year": 1979,
+        "runtime": 82
+    },
+    {
+        "title": "Beauty and the Beast",
+        "year": 1978,
+        "runtime": 83
+    },
+    {
+        "title": "20th Century Oz",
+        "year": 1976,
+        "runtime": 85
+    },
+    {
+        "title": "The Big Bus",
+        "year": 1976,
+        "runtime": 88
+    },
+    {
+        "title": "Mad Max",
+        "year": 1979,
+        "runtime": 88
+    },
+    {
+        "title": "Sweeney!",
+        "year": 1977,
+        "runtime": 89
+    },
+    {
+        "title": "Buck Rogers in the 25th Century",
+        "year": 1979,
+        "runtime": 89
+    },
+    {
+        "title": "At the Earth's Core",
+        "year": 1976,
+        "runtime": 89
+    },
+    {
+        "title": "Que Viva Mexico",
+        "year": 1979,
+        "runtime": 90
+    },
+    {
+        "title": "Animal",
+        "year": 1977,
+        "runtime": 91
+    },
+    {
+        "title": "Starcrash",
+        "year": 1978,
+        "runtime": 92
+    },
+    {
+        "title": "Uno sceriffo extraterrestre... poco extra e molto terrestre",
+        "year": 1979,
+        "runtime": 95
+    },
+    {
+        "title": "Smokey and the Bandit",
+        "year": 1977,
+        "runtime": 96
+    },
+    {
+        "title": "I Never Promised You a Rose Garden",
+        "year": 1977,
+        "runtime": 96
+    },
+    {
+        "title": "Crime Busters",
+        "year": 1977,
+        "runtime": 98
+    },
+    {
+        "title": "The Black Hole",
+        "year": 1979,
+        "runtime": 98
+    },
+    {
+        "title": "Oh, God!",
+        "year": 1977,
+        "runtime": 98
+    },
+    {
+        "title": "Arabian Adventure",
+        "year": 1979,
+        "runtime": 98
+    },
+    {
+        "title": "Deseos",
+        "year": 1977,
+        "runtime": 98
+    },
+    {
+        "title": "Hooper",
+        "year": 1978,
+        "runtime": 99
+    },
+    {
+        "title": "The Island of Dr. Moreau",
+        "year": 1977,
+        "runtime": 99
+    },
+    {
+        "title": "The Shootist",
+        "year": 1976,
+        "runtime": 100
+    },
+    {
+        "title": "Mad Dog Morgan",
+        "year": 1976,
+        "runtime": 102
+    },
+    {
+        "title": "Telefon",
+        "year": 1977,
+        "runtime": 102
+    },
+    {
+        "title": "Circle of Iron",
+        "year": 1978,
+        "runtime": 102
+    },
+    {
+        "title": "Message from Space",
+        "year": 1978,
+        "runtime": 105
+    },
+    {
+        "title": "Message from Space",
+        "year": 1978,
+        "runtime": 105
+    },
+    {
+        "title": "The Brothers Lionheart",
+        "year": 1977,
+        "runtime": 106
+    },
+    {
+        "title": "Sleeping Dogs",
+        "year": 1977,
+        "runtime": 107
+    },
+    {
+        "title": "Cop or Hood",
+        "year": 1979,
+        "runtime": 107
+    },
+    {
+        "title": "The Next Man",
+        "year": 1976,
+        "runtime": 108
+    },
+    {
+        "title": "Io sto con gli ippopotami",
+        "year": 1979,
+        "runtime": 108
+    },
+    {
+        "title": "Man on the Roof",
+        "year": 1976,
+        "runtime": 110
+    },
+    {
+        "title": "Convoy",
+        "year": 1978,
+        "runtime": 110
+    },
+    {
+        "title": "Uppercut",
+        "year": 1978,
+        "runtime": 110
+    },
+    {
+        "title": "Eagle's Wing",
+        "year": 1979,
+        "runtime": 111
+    },
+    {
+        "title": "Sinbad and the Eye of the Tiger",
+        "year": 1977,
+        "runtime": 113
+    },
+    {
+        "title": "The Concorde... Airport '79",
+        "year": 1979,
+        "runtime": 113
+    },
+    {
+        "title": "Bye Bye Monkey",
+        "year": 1978,
+        "runtime": 113
+    },
+    {
+        "title": "Silver Streak",
+        "year": 1976,
+        "runtime": 114
+    },
+    {
+        "title": "Aces High",
+        "year": 1976,
+        "runtime": 114
+    },
+    {
+        "title": "Every Which Way But Loose",
+        "year": 1978,
+        "runtime": 114
+    },
+    {
+        "title": "Go Tell the Spartans",
+        "year": 1978,
+        "runtime": 114
+    },
+    {
+        "title": "Beyond the Poseidon Adventure",
+        "year": 1979,
+        "runtime": 114
+    },
+    {
+        "title": "Face to Face",
+        "year": 1976,
+        "runtime": 114
+    },
+    {
+        "title": "Flatfoot in Africa",
+        "year": 1978,
+        "runtime": 115
+    },
+    {
+        "title": "Comes a Horseman",
+        "year": 1978,
+        "runtime": 118
+    },
+    {
+        "title": "Logan's Run",
+        "year": 1976,
+        "runtime": 119
+    },
+    {
+        "title": "Star Wars: Episode IV - A New Hope",
+        "year": 1977,
+        "runtime": 121
+    },
+    {
+        "title": "The Electric Horseman",
+        "year": 1979,
+        "runtime": 121
+    },
+    {
+        "title": "Capricorn One",
+        "year": 1977,
+        "runtime": 123
+    },
+    {
+        "title": "Buffalo Bill and the Indians, or Sitting Bull's History Lesson",
+        "year": 1976,
+        "runtime": 123
+    },
+    {
+        "title": "The Spy Who Loved Me",
+        "year": 1977,
+        "runtime": 125
+    },
+    {
+        "title": "Who'll Stop the Rain",
+        "year": 1978,
+        "runtime": 126
+    },
+    {
+        "title": "Moonraker",
+        "year": 1979,
+        "runtime": 126
+    },
+    {
+        "title": "The Slipper and the Rose: The Story of Cinderella",
+        "year": 1976,
+        "runtime": 127
+    },
+    {
+        "title": "Pete's Dragon",
+        "year": 1977,
+        "runtime": 128
+    },
+    {
+        "title": "The Lord of the Rings",
+        "year": 1978,
+        "runtime": 132
+    },
+    {
+        "title": "The Wild Geese",
+        "year": 1978,
+        "runtime": 134
+    },
+    {
+        "title": "King Kong",
+        "year": 1976,
+        "runtime": 134
+    },
+    {
+        "title": "The Wiz",
+        "year": 1978,
+        "runtime": 134
+    },
+    {
+        "title": "The Outlaw Josey Wales",
+        "year": 1976,
+        "runtime": 135
+    },
+    {
+        "title": "Black Sunday",
+        "year": 1977,
+        "runtime": 143
+    },
+    {
+        "title": "Superman",
+        "year": 1978,
+        "runtime": 143
+    },
+    {
+        "title": "Don",
+        "year": 1978,
+        "runtime": 166
+    },
+    {
+        "title": "Amar Akbar Anthony",
+        "year": 1977,
+        "runtime": 184
+    },
+    {
+        "title": "Centennial",
+        "year": 1978,
+        "runtime": 1256
+    }
+]
