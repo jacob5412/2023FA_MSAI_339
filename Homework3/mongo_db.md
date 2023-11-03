@@ -131,9 +131,7 @@ db.movies.find({
   title: 'Un uomo in ginocchio',
   year: 1979
 }
-...
+... and so on ...
 ```
 
-... and so on ...
-
-The output is given in 
+There's a script called `retrieve_movies.js` that can be run using `node`. Ensure that you create a file called `db_creds.json` before you run the file. The full output is given in `movies_query_results.json`
