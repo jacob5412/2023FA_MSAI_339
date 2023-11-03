@@ -101,8 +101,6 @@ The output from the MongoDB compass:
 
 <img src="mdb_output1.png" alt="MDB Output 1" width="1000">
 
-Note that some movies don't have a `runtime`, which is why they're not being displayed.
-
 There's a script called `retrieve_movies.js` that can be run using `node`. Ensure that you create a file called `db_creds.json` before you run the file. The output is given in `movies_query_results.json`, this includes all the movies without any limit.
 
 3. Write an aggregation aggregating year which calculates sum of all runtime for movies where year is between 1975 and 1980 (inclusive).
