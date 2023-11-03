@@ -1,4 +1,4 @@
-# Mongo DB Assignment
+# MongoDB Assignment
 
 1. Connect via Mongo Compass and run show DBs:
 
