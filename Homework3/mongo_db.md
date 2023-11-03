@@ -103,20 +103,36 @@ local                 6.97 GiB
    3. Order by `runtime` (asc or dsc).
 
 ```javascript
-> db.movies.find({
-    year: { $gt: 1975, $lt: 1980 }
-    }, {
-        title: true,
-        year: true,
-        runtime: true,
-        _id: false
-    }).sort({ runtime: 1 }) // -1 for dsc
+> db.movies.aggregate([
+  {
+    $match: {
+      year: { $gt: 1975, $lt: 1980 }
+    }
+  },
+  {
+    $sort: { runtime: 1 }
+  },
+  {
+    $limit: 5
+  },
+  {
+    $project: {
+      title: 1,
+      year: 1,
+      runtime: 1,
+      _id: 0
+    }
+  },
+  {
+    $project: {
+      title: "$title",
+      year: "$year",
+      runtime: "$runtime"
+    }
+  }
+])
 
 > {
-  title: 'Sentimentalnyy roman',
-  year: 1977
-}
-{
   title: 'The Secret Life of Plants',
   year: 1978
 }
@@ -124,15 +140,71 @@ local                 6.97 GiB
   title: 'Un uomo in ginocchio',
   year: 1979
 }
-...
 {
-  runtime: 9,
-  title: 'Powers of Ten',
+  title: 'The Burgos Trial',
+  year: 1979
+}
+{
+  title: 'Sentimentalnyy roman',
   year: 1977
 }
-... and so on ...
+{
+  title: 'Powers of Ten',
+  year: 1977,
+  runtime: 9
+}
 ```
 
 Note that some movies don't have a `runtime`, which is why they're not being displayed.
 
-There's a script called `retrieve_movies.js` that can be run using `node`. Ensure that you create a file called `db_creds.json` before you run the file. The full output is given in `movies_query_results.json`
+There's a script called `retrieve_movies.js` that can be run using `node`. Ensure that you create a file called `db_creds.json` before you run the file. The output is given in `movies_query_results.json`, this includes all the movies without any limit.
+
+5. Write an aggregation aggregating year which calculates sum of all runtime for movies where year is between 1975 and 1980 including.
+   
+```bash
+> db.movies.aggregate([
+  {
+    $match: {
+      year: { $gte: 1975, $lte: 1980 }
+    }
+  },
+  {
+    $group: {
+      _id: "$year",
+      sumRuntime: { $sum: "$runtime" }
+    }
+  },
+  {
+    $project: {
+      _id: 0,
+      year: "$_id",
+      sumRuntime: "$sumRuntime"
+    }
+  }
+]).sort({ year: 1 })
+
+< {
+  year: 1975,
+  sumRuntime: 12283
+}
+{
+  year: 1976,
+  sumRuntime: 12723
+}
+{
+  year: 1977,
+  sumRuntime: 14054
+}
+{
+  year: 1978,
+  sumRuntime: 15356
+}
+{
+  year: 1979,
+  sumRuntime: 14196
+}
+{
+  year: 1980,
+  sumRuntime: 18422
+}
+```

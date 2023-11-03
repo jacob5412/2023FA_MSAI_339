@@ -5,9 +5,31 @@ const dbCreds = JSON.parse(fs.readFileSync('db_creds.json'));
 
 const uri = `mongodb+srv://${dbCreds.username}:${dbCreds.password}@${dbCreds.url}/?retryWrites=true&w=majority`;
 const database = `${dbCreds.database}`;
-const query = { year: { $gt: 1975, $lt: 1980 } };
-const projection = { title: true, year: true, runtime: true, _id: false };
-const sort = { runtime: 1 };
+const pipeline = [
+    {
+        $match: {
+            year: { $gt: 1975, $lt: 1980 }
+        }
+    },
+    {
+        $sort: { runtime: 1 }
+    },
+    {
+        $project: {
+            title: 1,
+            year: 1,
+            runtime: 1,
+            _id: 0
+        }
+    },
+    {
+        $project: {
+            title: "$title",
+            year: "$year",
+            runtime: "$runtime"
+        }
+    }
+];
 const outputFilePath = 'output.json';
 
 const client = new MongoClient(uri, {
@@ -28,7 +50,7 @@ async function run() {
         console.log('Ping result:', pingResult);
 
         // Create a cursor to read query
-        const cursor = await client.db(database).collection('movies').find(query, { projection }).sort(sort);
+        const cursor = await client.db(database).collection('movies').aggregate(pipeline);
 
         // write to file through a write stream
         const fileStream = fs.createWriteStream(outputFilePath, { flags: 'w' });
