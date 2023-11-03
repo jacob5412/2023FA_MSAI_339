@@ -21,24 +21,9 @@
         "year": 1977
     },
     {
-        "runtime": 14,
-        "title": "Tyll the Giant",
-        "year": 1980
-    },
-    {
-        "runtime": 16,
-        "title": "Talking Heads",
-        "year": 1980
-    },
-    {
         "runtime": 29,
         "title": "Tale of Tales",
         "year": 1979
-    },
-    {
-        "runtime": 29,
-        "title": "Solo",
-        "year": 1980
     },
     {
         "runtime": 30,
@@ -71,21 +56,6 @@
         "year": 1977
     },
     {
-        "runtime": 60,
-        "title": "Hollywood",
-        "year": 1980
-    },
-    {
-        "runtime": 60,
-        "title": "Cosmos",
-        "year": 1980
-    },
-    {
-        "runtime": 65,
-        "title": "The Life and Times of Rosie the Riveter",
-        "year": 1980
-    },
-    {
         "runtime": 68,
         "title": "Requiem for a Village",
         "year": 1976
@@ -116,11 +86,6 @@
         "year": 1977
     },
     {
-        "runtime": 74,
-        "title": "Forbidden Zone",
-        "year": 1980
-    },
-    {
         "runtime": 75,
         "title": "Allegro non troppo",
         "year": 1976
@@ -129,11 +94,6 @@
         "runtime": 75,
         "title": "Pennies from Heaven",
         "year": 1978
-    },
-    {
-        "runtime": 75,
-        "title": "Permanent Vacation",
-        "year": 1980
     },
     {
         "runtime": 76,
@@ -149,11 +109,6 @@
         "runtime": 76,
         "title": "Edogawa Ranpo ryèki-kan: Yaneura no sanposha",
         "year": 1976
-    },
-    {
-        "runtime": 77,
-        "title": "The Naked Civil Servant",
-        "year": 1975
     },
     {
         "runtime": 78,
@@ -196,21 +151,6 @@
         "year": 1979
     },
     {
-        "runtime": 82,
-        "title": "Blade on the Feather",
-        "year": 1980
-    },
-    {
-        "runtime": 82,
-        "title": "Tanya's Island",
-        "year": 1980
-    },
-    {
-        "runtime": 83,
-        "title": "Premiya",
-        "year": 1975
-    },
-    {
         "runtime": 83,
         "title": "The Bees",
         "year": 1978
@@ -242,11 +182,6 @@
     },
     {
         "runtime": 83,
-        "title": "The King and the Mockingbird",
-        "year": 1980
-    },
-    {
-        "runtime": 83,
         "title": "L'arma",
         "year": 1978
     },
@@ -267,18 +202,8 @@
     },
     {
         "runtime": 84,
-        "title": "The Watcher in the Woods",
-        "year": 1980
-    },
-    {
-        "runtime": 84,
         "title": "King of the Doormen",
         "year": 1976
-    },
-    {
-        "runtime": 85,
-        "title": "Love and Death",
-        "year": 1975
     },
     {
         "runtime": 85,
@@ -297,18 +222,8 @@
     },
     {
         "runtime": 86,
-        "title": "The Devil's Rain",
-        "year": 1975
-    },
-    {
-        "runtime": 86,
         "title": "Kadin Hamlet",
         "year": 1977
-    },
-    {
-        "runtime": 86,
-        "title": "Who's Singin' Over There?",
-        "year": 1980
     },
     {
         "runtime": 86,
@@ -322,11 +237,6 @@
     },
     {
         "runtime": 87,
-        "title": "Shivers",
-        "year": 1975
-    },
-    {
-        "runtime": 87,
         "title": "Silent Movie",
         "year": 1976
     },
@@ -334,21 +244,6 @@
         "runtime": 87,
         "title": "The House by the Lake",
         "year": 1976
-    },
-    {
-        "runtime": 87,
-        "title": "Maniac",
-        "year": 1980
-    },
-    {
-        "runtime": 88,
-        "title": "Fear of Fear",
-        "year": 1975
-    },
-    {
-        "runtime": 88,
-        "title": "The Ghoul",
-        "year": 1975
     },
     {
         "runtime": 88,
@@ -372,16 +267,6 @@
     },
     {
         "runtime": 88,
-        "title": "The Cuenca Crime",
-        "year": 1980
-    },
-    {
-        "runtime": 88,
-        "title": "Saturn 3",
-        "year": 1980
-    },
-    {
-        "runtime": 88,
         "title": "Mad Max",
         "year": 1979
     },
@@ -389,21 +274,6 @@
         "runtime": 88,
         "title": "Phantasm",
         "year": 1979
-    },
-    {
-        "runtime": 88,
-        "title": "Airplane!",
-        "year": 1980
-    },
-    {
-        "runtime": 88,
-        "title": "Saturn 3",
-        "year": 1980
-    },
-    {
-        "runtime": 89,
-        "title": "Hester Street",
-        "year": 1975
     },
     {
         "runtime": 89,
@@ -437,11 +307,6 @@
     },
     {
         "runtime": 89,
-        "title": "Train Ride to Hollywood",
-        "year": 1975
-    },
-    {
-        "runtime": 89,
         "title": "Buffet Froid",
         "year": 1979
     },
@@ -449,26 +314,6 @@
         "runtime": 89,
         "title": "Coup de tète",
         "year": 1979
-    },
-    {
-        "runtime": 89,
-        "title": "The Fog",
-        "year": 1980
-    },
-    {
-        "runtime": 89,
-        "title": "Stardust Memories",
-        "year": 1980
-    },
-    {
-        "runtime": 89,
-        "title": "The Unseen",
-        "year": 1980
-    },
-    {
-        "runtime": 90,
-        "title": "Tora-san's Rise and Fall",
-        "year": 1975
     },
     {
         "runtime": 90,
@@ -542,53 +387,13 @@
     },
     {
         "runtime": 90,
-        "title": "The Apple",
-        "year": 1980
-    },
-    {
-        "runtime": 90,
-        "title": "Tell Me a Riddle",
-        "year": 1980
-    },
-    {
-        "runtime": 90,
-        "title": "Iracema - Uma Transa Amazènica",
-        "year": 1975
-    },
-    {
-        "runtime": 90,
         "title": "Qalaqi Anara",
         "year": 1978
     },
     {
         "runtime": 90,
-        "title": "Days of Hope",
-        "year": 1975
-    },
-    {
-        "runtime": 90,
-        "title": "Demon Lover Diary",
-        "year": 1980
-    },
-    {
-        "runtime": 90,
         "title": "The Girl with the Red Scarf",
         "year": 1978
-    },
-    {
-        "year": 1975,
-        "title": "Monty Python and the Holy Grail",
-        "runtime": 91
-    },
-    {
-        "runtime": 91,
-        "title": "A Boy and His Dog",
-        "year": 1975
-    },
-    {
-        "runtime": 91,
-        "title": "Whiffs",
-        "year": 1975
     },
     {
         "runtime": 91,
@@ -637,48 +442,8 @@
     },
     {
         "runtime": 91,
-        "title": "Alligator",
-        "year": 1980
-    },
-    {
-        "runtime": 91,
-        "title": "Fatty Finn",
-        "year": 1980
-    },
-    {
-        "runtime": 91,
-        "title": "It's My Turn",
-        "year": 1980
-    },
-    {
-        "runtime": 91,
-        "title": "Lightning Over Water",
-        "year": 1980
-    },
-    {
-        "runtime": 91,
-        "title": "It's My Turn",
-        "year": 1980
-    },
-    {
-        "runtime": 91,
         "title": "The Chaos Class Failed the Class",
         "year": 1976
-    },
-    {
-        "runtime": 92,
-        "title": "Nazareno Cruz and the Wolf",
-        "year": 1975
-    },
-    {
-        "runtime": 92,
-        "title": "The Night That Panicked America",
-        "year": 1975
-    },
-    {
-        "runtime": 92,
-        "title": "Posse",
-        "year": 1975
     },
     {
         "runtime": 92,
@@ -714,21 +479,6 @@
         "runtime": 92,
         "title": "Starcrash",
         "year": 1978
-    },
-    {
-        "runtime": 92,
-        "title": "The Chain Reaction",
-        "year": 1980
-    },
-    {
-        "runtime": 92,
-        "title": "Golem",
-        "year": 1980
-    },
-    {
-        "runtime": 92,
-        "title": "Prom Night",
-        "year": 1980
     },
     {
         "runtime": 93,
@@ -787,38 +537,8 @@
     },
     {
         "runtime": 93,
-        "title": "Fatso",
-        "year": 1980
-    },
-    {
-        "runtime": 93,
-        "title": "The Godsend",
-        "year": 1980
-    },
-    {
-        "runtime": 93,
-        "title": "Scared to Death",
-        "year": 1980
-    },
-    {
-        "runtime": 93,
-        "title": "Funeral Home",
-        "year": 1980
-    },
-    {
-        "runtime": 93,
         "title": "Podranki",
         "year": 1977
-    },
-    {
-        "runtime": 94,
-        "title": "One Hundred Days After Childhood",
-        "year": 1975
-    },
-    {
-        "runtime": 94,
-        "title": "Sunday Too Far Away",
-        "year": 1975
     },
     {
         "runtime": 94,
@@ -829,11 +549,6 @@
         "runtime": 94,
         "title": "A Slave of Love",
         "year": 1976
-    },
-    {
-        "runtime": 94,
-        "title": "Zaklete rewiry",
-        "year": 1975
     },
     {
         "runtime": 94,
@@ -877,48 +592,8 @@
     },
     {
         "runtime": 94,
-        "title": "Don't Answer the Phone!",
-        "year": 1980
-    },
-    {
-        "runtime": 94,
-        "title": "Kenny Rogers as The Gambler",
-        "year": 1980
-    },
-    {
-        "runtime": 94,
-        "title": "Oh, God! Book II",
-        "year": 1980
-    },
-    {
-        "runtime": 94,
-        "title": "The Nude Bomb",
-        "year": 1980
-    },
-    {
-        "runtime": 94,
-        "title": "Out of the Blue",
-        "year": 1980
-    },
-    {
-        "runtime": 94,
         "title": "I Am Maria",
         "year": 1979
-    },
-    {
-        "runtime": 95,
-        "title": "Black Moon",
-        "year": 1975
-    },
-    {
-        "runtime": 95,
-        "title": "Cousin cousine",
-        "year": 1975
-    },
-    {
-        "runtime": 95,
-        "title": "Farewell, My Lovely",
-        "year": 1975
     },
     {
         "runtime": 95,
@@ -976,46 +651,6 @@
         "year": 1979
     },
     {
-        "runtime": 95,
-        "title": "Galaxina",
-        "year": 1980
-    },
-    {
-        "runtime": 95,
-        "title": "Harlequin",
-        "year": 1980
-    },
-    {
-        "runtime": 95,
-        "title": "Kuruizaki sanda rodo",
-        "year": 1980
-    },
-    {
-        "runtime": 95,
-        "title": "Melvin and Howard",
-        "year": 1980
-    },
-    {
-        "runtime": 95,
-        "title": "Pastorali",
-        "year": 1975
-    },
-    {
-        "runtime": 95,
-        "title": "Pastorali",
-        "year": 1975
-    },
-    {
-        "runtime": 96,
-        "title": "Breakout",
-        "year": 1975
-    },
-    {
-        "runtime": 96,
-        "title": "The Story of Adele H",
-        "year": 1975
-    },
-    {
         "runtime": 96,
         "title": "The Boy in the Plastic Bubble",
         "year": 1976
@@ -1067,43 +702,8 @@
     },
     {
         "runtime": 96,
-        "title": "The Club",
-        "year": 1980
-    },
-    {
-        "runtime": 96,
-        "title": "Little Darlings",
-        "year": 1980
-    },
-    {
-        "runtime": 96,
-        "title": "Revenge of the Stepford Wives",
-        "year": 1980
-    },
-    {
-        "runtime": 96,
-        "title": "Windows",
-        "year": 1980
-    },
-    {
-        "year": 1980,
-        "title": "Xanadu",
-        "runtime": 96
-    },
-    {
-        "runtime": 96,
-        "title": "Vrijdag",
-        "year": 1980
-    },
-    {
-        "runtime": 96,
         "title": "Oh, Serafina!",
         "year": 1976
-    },
-    {
-        "runtime": 97,
-        "title": "Release the Prisoners to Spring",
-        "year": 1975
     },
     {
         "runtime": 97,
@@ -1149,46 +749,6 @@
         "runtime": 97,
         "title": "When a Stranger Calls",
         "year": 1979
-    },
-    {
-        "runtime": 97,
-        "title": "The Earthling",
-        "year": 1980
-    },
-    {
-        "runtime": 97,
-        "title": "The Hunter",
-        "year": 1980
-    },
-    {
-        "runtime": 97,
-        "title": "The Last Flight of Noah's Ark",
-        "year": 1980
-    },
-    {
-        "runtime": 97,
-        "title": "Simon",
-        "year": 1980
-    },
-    {
-        "runtime": 97,
-        "title": "Terror Train",
-        "year": 1980
-    },
-    {
-        "runtime": 98,
-        "title": "The Prisoner of Second Avenue",
-        "year": 1975
-    },
-    {
-        "runtime": 98,
-        "title": "A Woman's Decision",
-        "year": 1975
-    },
-    {
-        "runtime": 98,
-        "title": "Hustling",
-        "year": 1975
     },
     {
         "runtime": 98,
@@ -1272,16 +832,6 @@
     },
     {
         "runtime": 98,
-        "title": "The Umbrella Coup",
-        "year": 1980
-    },
-    {
-        "runtime": 98,
-        "title": "One-Trick Pony",
-        "year": 1980
-    },
-    {
-        "runtime": 98,
         "title": "Me and Charly",
         "year": 1978
     },
@@ -1289,11 +839,6 @@
         "runtime": 98,
         "title": "Deseos",
         "year": 1977
-    },
-    {
-        "runtime": 99,
-        "title": "Bug",
-        "year": 1975
     },
     {
         "runtime": 99,
@@ -1314,56 +859,6 @@
         "runtime": 99,
         "title": "Revenge of the Pink Panther",
         "year": 1978
-    },
-    {
-        "runtime": 99,
-        "title": "Fun Is Beautiful",
-        "year": 1980
-    },
-    {
-        "runtime": 99,
-        "title": "Chissè perchè... capitano tutte a me",
-        "year": 1980
-    },
-    {
-        "runtime": 100,
-        "title": "The Common Man",
-        "year": 1975
-    },
-    {
-        "runtime": 100,
-        "title": "Jacob the Liar",
-        "year": 1975
-    },
-    {
-        "runtime": 100,
-        "title": "Doc Savage: The Man of Bronze",
-        "year": 1975
-    },
-    {
-        "runtime": 100,
-        "title": "Euridice BA 2O37",
-        "year": 1975
-    },
-    {
-        "runtime": 100,
-        "title": "Grey Gardens",
-        "year": 1975
-    },
-    {
-        "runtime": 100,
-        "title": "The Legend of Lizzie Borden",
-        "year": 1975
-    },
-    {
-        "runtime": 100,
-        "title": "Night Moves",
-        "year": 1975
-    },
-    {
-        "year": 1975,
-        "title": "The Rocky Horror Picture Show",
-        "runtime": 100
     },
     {
         "runtime": 100,
@@ -1416,36 +911,6 @@
         "year": 1979
     },
     {
-        "runtime": 100,
-        "title": "Solo Sunny",
-        "year": 1980
-    },
-    {
-        "runtime": 100,
-        "title": "Cafè Express",
-        "year": 1980
-    },
-    {
-        "runtime": 100,
-        "title": "Cma",
-        "year": 1980
-    },
-    {
-        "runtime": 100,
-        "title": "The Fiendish Plot of Dr. Fu Manchu",
-        "year": 1980
-    },
-    {
-        "runtime": 100,
-        "title": "The Long Riders",
-        "year": 1980
-    },
-    {
-        "runtime": 100,
-        "title": "Seems Like Old Times",
-        "year": 1980
-    },
-    {
         "runtime": 101,
         "title": "Queen of the Gypsies",
         "year": 1976
@@ -1484,31 +949,6 @@
         "runtime": 101,
         "title": "Rich Kids",
         "year": 1979
-    },
-    {
-        "runtime": 101,
-        "title": "The Awakening",
-        "year": 1980
-    },
-    {
-        "runtime": 101,
-        "title": "Loulou",
-        "year": 1980
-    },
-    {
-        "runtime": 101,
-        "title": "Motel Hell",
-        "year": 1980
-    },
-    {
-        "runtime": 102,
-        "title": "Hearts of the West",
-        "year": 1975
-    },
-    {
-        "runtime": 102,
-        "title": "Lies My Father Told Me",
-        "year": 1975
     },
     {
         "runtime": 102,
@@ -1561,51 +1001,6 @@
         "year": 1979
     },
     {
-        "runtime": 102,
-        "title": "Altered States",
-        "year": 1980
-    },
-    {
-        "runtime": 102,
-        "title": "La cage aux folles II",
-        "year": 1980
-    },
-    {
-        "runtime": 102,
-        "title": "Cruising",
-        "year": 1980
-    },
-    {
-        "runtime": 102,
-        "title": "Fade to Black",
-        "year": 1980
-    },
-    {
-        "runtime": 102,
-        "title": "My Bodyguard",
-        "year": 1980
-    },
-    {
-        "runtime": 103,
-        "title": "Wrong Move",
-        "year": 1975
-    },
-    {
-        "runtime": 103,
-        "title": "The Man Who Couldn't Say No",
-        "year": 1975
-    },
-    {
-        "runtime": 103,
-        "title": "The Other Side of the Mountain",
-        "year": 1975
-    },
-    {
-        "runtime": 103,
-        "title": "The Old Gun",
-        "year": 1975
-    },
-    {
         "runtime": 103,
         "title": "Harlan County U.S.A.",
         "year": 1976
@@ -1639,36 +1034,6 @@
         "runtime": 103,
         "title": "Five Evenings",
         "year": 1979
-    },
-    {
-        "runtime": 103,
-        "title": "The Final Countdown",
-        "year": 1980
-    },
-    {
-        "runtime": 103,
-        "title": "Little Miss Marker",
-        "year": 1980
-    },
-    {
-        "runtime": 103,
-        "title": "Little Lord Fauntleroy",
-        "year": 1980
-    },
-    {
-        "runtime": 103,
-        "title": "Resurrection",
-        "year": 1980
-    },
-    {
-        "runtime": 103,
-        "title": "Somewhere in Time",
-        "year": 1980
-    },
-    {
-        "runtime": 103,
-        "title": "Wholly Moses!",
-        "year": 1980
     },
     {
         "runtime": 104,
@@ -1732,53 +1097,13 @@
     },
     {
         "runtime": 104,
-        "title": "From the Life of the Marionettes",
-        "year": 1980
-    },
-    {
-        "runtime": 104,
-        "title": "Atlantic City",
-        "year": 1980
-    },
-    {
-        "runtime": 104,
-        "title": "Battle Beyond the Stars",
-        "year": 1980
-    },
-    {
-        "runtime": 104,
-        "title": "The Blue Lagoon",
-        "year": 1980
-    },
-    {
-        "runtime": 104,
-        "title": "Breaking Glass",
-        "year": 1980
-    },
-    {
-        "runtime": 104,
         "title": "Return of the Secaucus Seven",
         "year": 1979
     },
     {
         "runtime": 104,
-        "title": "Rasputin",
-        "year": 1975
-    },
-    {
-        "runtime": 104,
         "title": "Radio On",
         "year": 1979
-    },
-    {
-        "runtime": 105,
-        "title": "The Suspect",
-        "year": 1975
-    },
-    {
-        "runtime": 105,
-        "title": "The Sunday Woman",
-        "year": 1975
     },
     {
         "runtime": 105,
@@ -1842,16 +1167,6 @@
     },
     {
         "runtime": 105,
-        "title": "The Lathe of Heaven",
-        "year": 1980
-    },
-    {
-        "runtime": 105,
-        "title": "The Mirror Crack'd",
-        "year": 1980
-    },
-    {
-        "runtime": 105,
         "title": "Message from Space",
         "year": 1978
     },
@@ -1869,16 +1184,6 @@
         "runtime": 105,
         "title": "The Rites of May",
         "year": 1976
-    },
-    {
-        "runtime": 106,
-        "title": "The Lost Honor of Katharina Blum",
-        "year": 1975
-    },
-    {
-        "runtime": 106,
-        "title": "End of the Game",
-        "year": 1975
     },
     {
         "runtime": 106,
@@ -1904,31 +1209,6 @@
         "runtime": 106,
         "title": "Wise Blood",
         "year": 1979
-    },
-    {
-        "runtime": 106,
-        "title": "Foxes",
-        "year": 1980
-    },
-    {
-        "runtime": 106,
-        "title": "Hopscotch",
-        "year": 1980
-    },
-    {
-        "runtime": 106,
-        "title": "The Man with Bogart's Face",
-        "year": 1980
-    },
-    {
-        "runtime": 107,
-        "title": "Le Sauvage",
-        "year": 1975
-    },
-    {
-        "runtime": 107,
-        "title": "Egg! Egg! A Hardboiled Story",
-        "year": 1975
     },
     {
         "runtime": 107,
@@ -1997,43 +1277,8 @@
     },
     {
         "runtime": 107,
-        "title": "Breaker Morant",
-        "year": 1980
-    },
-    {
-        "runtime": 107,
-        "title": "The Changeling",
-        "year": 1980
-    },
-    {
-        "runtime": 107,
-        "title": "Sèllskapsresan eller Finns det svenskt kaffe pè grisfesten",
-        "year": 1980
-    },
-    {
-        "runtime": 107,
-        "title": "Cèleste",
-        "year": 1980
-    },
-    {
-        "runtime": 107,
         "title": "Nosferatu the Vampyre",
         "year": 1979
-    },
-    {
-        "runtime": 108,
-        "title": "White Collar Blues",
-        "year": 1975
-    },
-    {
-        "runtime": 108,
-        "title": "The Drowning Pool",
-        "year": 1975
-    },
-    {
-        "runtime": 108,
-        "title": "Mother Kèsters Goes to Heaven",
-        "year": 1975
     },
     {
         "runtime": 108,
@@ -2097,33 +1342,8 @@
     },
     {
         "runtime": 108,
-        "title": "The Warning",
-        "year": 1980
-    },
-    {
-        "runtime": 108,
-        "title": "Windwalker",
-        "year": 1980
-    },
-    {
-        "runtime": 108,
-        "title": "The Warning",
-        "year": 1980
-    },
-    {
-        "runtime": 108,
         "title": "Dossier 51",
         "year": 1978
-    },
-    {
-        "runtime": 109,
-        "title": "L'important c'est d'aimer",
-        "year": 1975
-    },
-    {
-        "runtime": 109,
-        "title": "Shampoo",
-        "year": 1975
     },
     {
         "year": 1978,
@@ -2151,49 +1371,9 @@
         "year": 1979
     },
     {
-        "runtime": 109,
-        "title": "Children's Island",
-        "year": 1980
-    },
-    {
-        "runtime": 109,
-        "title": "The Diary of Anne Frank",
-        "year": 1980
-    },
-    {
-        "runtime": 109,
-        "title": "The Gods Must Be Crazy",
-        "year": 1980
-    },
-    {
-        "runtime": 109,
-        "title": "The Island",
-        "year": 1980
-    },
-    {
-        "runtime": 109,
-        "title": "Private Benjamin",
-        "year": 1980
-    },
-    {
         "runtime": 110,
         "title": "Actas de Marusia",
         "year": 1976
-    },
-    {
-        "runtime": 110,
-        "title": "Let's Do It Again",
-        "year": 1975
-    },
-    {
-        "runtime": 110,
-        "title": "Down the Ancient Stairs",
-        "year": 1975
-    },
-    {
-        "runtime": 110,
-        "title": "Special Section",
-        "year": 1975
     },
     {
         "runtime": 110,
@@ -2307,33 +1487,8 @@
     },
     {
         "runtime": 110,
-        "title": "Nine to Five",
-        "year": 1980
-    },
-    {
-        "runtime": 110,
-        "title": "Bye Bye Brasil",
-        "year": 1980
-    },
-    {
-        "runtime": 110,
-        "title": "Milka - A Film About Taboos",
-        "year": 1980
-    },
-    {
-        "runtime": 110,
         "title": "The Bishop's Bedroom",
         "year": 1977
-    },
-    {
-        "runtime": 111,
-        "title": "The Sunshine Boys",
-        "year": 1975
-    },
-    {
-        "runtime": 111,
-        "title": "Tommy",
-        "year": 1975
     },
     {
         "runtime": 111,
@@ -2369,16 +1524,6 @@
         "runtime": 111,
         "title": "Sèrie noire",
         "year": 1979
-    },
-    {
-        "runtime": 111,
-        "title": "Flash Gordon",
-        "year": 1980
-    },
-    {
-        "year": 1980,
-        "title": "Stir Crazy",
-        "runtime": 111
     },
     {
         "runtime": 112,
@@ -2426,31 +1571,6 @@
         "year": 1979
     },
     {
-        "runtime": 112,
-        "title": "The First Deadly Sin",
-        "year": 1980
-    },
-    {
-        "runtime": 112,
-        "title": "Just Tell Me What You Want",
-        "year": 1980
-    },
-    {
-        "runtime": 112,
-        "title": "I Sent a Letter to My Love",
-        "year": 1980
-    },
-    {
-        "runtime": 113,
-        "title": "The Return of the Pink Panther",
-        "year": 1975
-    },
-    {
-        "runtime": 113,
-        "title": "Smile",
-        "year": 1975
-    },
-    {
         "runtime": 113,
         "title": "Olympian Holiday",
         "year": 1976
@@ -2484,21 +1604,6 @@
         "runtime": 113,
         "title": "The Concorde... Airport '79",
         "year": 1979
-    },
-    {
-        "runtime": 113,
-        "title": "The Big Red One",
-        "year": 1980
-    },
-    {
-        "runtime": 113,
-        "title": "The Black Marble",
-        "year": 1980
-    },
-    {
-        "runtime": 113,
-        "title": "Used Cars",
-        "year": 1980
     },
     {
         "runtime": 114,
@@ -2556,44 +1661,9 @@
         "year": 1979
     },
     {
-        "runtime": 114,
-        "title": "The Kidnapping of the President",
-        "year": 1980
-    },
-    {
-        "runtime": 114,
-        "title": "The Long Good Friday",
-        "year": 1980
-    },
-    {
-        "runtime": 114,
-        "title": "Popeye",
-        "year": 1980
-    },
-    {
-        "runtime": 115,
-        "title": "Picnic at Hanging Rock",
-        "year": 1975
-    },
-    {
-        "runtime": 115,
-        "title": "The Stepford Wives",
-        "year": 1975
-    },
-    {
         "runtime": 115,
         "title": "Ugly, Dirty and Bad",
         "year": 1976
-    },
-    {
-        "runtime": 115,
-        "title": "Man Friday",
-        "year": 1975
-    },
-    {
-        "runtime": 115,
-        "title": "Seven Beauties",
-        "year": 1975
     },
     {
         "runtime": 115,
@@ -2614,16 +1684,6 @@
         "runtime": 115,
         "title": "Ogro",
         "year": 1979
-    },
-    {
-        "runtime": 115,
-        "title": "The Jazz Singer",
-        "year": 1980
-    },
-    {
-        "runtime": 115,
-        "title": "Raise the Titanic",
-        "year": 1980
     },
     {
         "runtime": 116,
@@ -2649,21 +1709,6 @@
         "runtime": 116,
         "title": "Bloodbrothers",
         "year": 1978
-    },
-    {
-        "runtime": 116,
-        "title": "Bronco Billy",
-        "year": 1980
-    },
-    {
-        "runtime": 117,
-        "title": "The Man in the Glass Booth",
-        "year": 1975
-    },
-    {
-        "runtime": 117,
-        "title": "Three Days of the Condor",
-        "year": 1975
     },
     {
         "runtime": 117,
@@ -2694,21 +1739,6 @@
         "runtime": 117,
         "title": "The Hamburg Syndrome",
         "year": 1979
-    },
-    {
-        "runtime": 117,
-        "title": "The Formula",
-        "year": 1980
-    },
-    {
-        "runtime": 117,
-        "title": "The Idolmaker",
-        "year": 1980
-    },
-    {
-        "runtime": 117,
-        "title": "Death Watch",
-        "year": 1980
     },
     {
         "runtime": 118,
@@ -2752,21 +1782,6 @@
     },
     {
         "runtime": 118,
-        "title": "Heerak Rajar Deshe",
-        "year": 1980
-    },
-    {
-        "runtime": 118,
-        "title": "The Ninth Configuration",
-        "year": 1980
-    },
-    {
-        "runtime": 118,
-        "title": "Tèèltè tullaan, elèmè!",
-        "year": 1980
-    },
-    {
-        "runtime": 118,
         "title": "The Idlers of the Fertile Valley",
         "year": 1978
     },
@@ -2774,21 +1789,6 @@
         "runtime": 118,
         "title": "The Idlers of the Fertile Valley",
         "year": 1978
-    },
-    {
-        "runtime": 119,
-        "title": "French Connection II",
-        "year": 1975
-    },
-    {
-        "year": 1975,
-        "title": "The Passenger",
-        "runtime": 119
-    },
-    {
-        "runtime": 119,
-        "title": "The Wind and the Lion",
-        "year": 1975
     },
     {
         "runtime": 119,
@@ -2844,16 +1844,6 @@
         "runtime": 119,
         "title": "Rocky II",
         "year": 1979
-    },
-    {
-        "runtime": 119,
-        "title": "Honeysuckle Rose",
-        "year": 1980
-    },
-    {
-        "runtime": 120,
-        "title": "India Song",
-        "year": 1975
     },
     {
         "runtime": 120,
@@ -2921,16 +1911,6 @@
         "year": 1979
     },
     {
-        "runtime": 120,
-        "title": "Yuppi du",
-        "year": 1975
-    },
-    {
-        "runtime": 121,
-        "title": "Once Is Not Enough",
-        "year": 1975
-    },
-    {
         "runtime": 121,
         "title": "Nickelodeon",
         "year": 1976
@@ -2976,11 +1956,6 @@
         "year": 1979
     },
     {
-        "runtime": 121,
-        "title": "Tribute",
-        "year": 1980
-    },
-    {
         "runtime": 122,
         "title": "10",
         "year": 1979
@@ -2999,11 +1974,6 @@
         "runtime": 122,
         "title": "An Average Little Man",
         "year": 1977
-    },
-    {
-        "runtime": 123,
-        "title": "Xala",
-        "year": 1975
     },
     {
         "runtime": 123,
@@ -3052,28 +2022,8 @@
     },
     {
         "runtime": 123,
-        "title": "The Competition",
-        "year": 1980
-    },
-    {
-        "runtime": 123,
-        "title": "Germany Pale Mother",
-        "year": 1980
-    },
-    {
-        "runtime": 123,
-        "title": "Gloria",
-        "year": 1980
-    },
-    {
-        "runtime": 123,
         "title": "The Thrushes Are Still Singing",
         "year": 1979
-    },
-    {
-        "year": 1975,
-        "title": "Jaws",
-        "runtime": 124
     },
     {
         "runtime": 124,
@@ -3116,46 +2066,6 @@
         "year": 1979
     },
     {
-        "runtime": 124,
-        "title": "Can't Stop the Music",
-        "year": 1980
-    },
-    {
-        "runtime": 124,
-        "title": "Coal Miner's Daughter",
-        "year": 1980
-    },
-    {
-        "runtime": 124,
-        "title": "The Elephant Man",
-        "year": 1980
-    },
-    {
-        "year": 1980,
-        "title": "Star Wars: Episode V - The Empire Strikes Back",
-        "runtime": 124
-    },
-    {
-        "runtime": 124,
-        "title": "Ordinary People",
-        "year": 1980
-    },
-    {
-        "runtime": 125,
-        "title": "Dog Day Afternoon",
-        "year": 1975
-    },
-    {
-        "runtime": 125,
-        "title": "The Hindenburg",
-        "year": 1975
-    },
-    {
-        "runtime": 125,
-        "title": "Rollerball",
-        "year": 1975
-    },
-    {
         "runtime": 125,
         "title": "Marathon Man",
         "year": 1976
@@ -3196,21 +2106,6 @@
         "year": 1979
     },
     {
-        "runtime": 125,
-        "title": "My American Uncle",
-        "year": 1980
-    },
-    {
-        "runtime": 125,
-        "title": "The Man with the Carnation",
-        "year": 1980
-    },
-    {
-        "runtime": 126,
-        "title": "A Genius, Two Friends, and an Idiot",
-        "year": 1975
-    },
-    {
         "runtime": 126,
         "title": "The Tenant",
         "year": 1976
@@ -3231,16 +2126,6 @@
         "year": 1979
     },
     {
-        "runtime": 126,
-        "title": "Khubsoorat",
-        "year": 1980
-    },
-    {
-        "runtime": 127,
-        "title": "Mandingo",
-        "year": 1975
-    },
-    {
         "runtime": 127,
         "title": "The Slipper and the Rose: The Story of Cinderella",
         "year": 1976
@@ -3259,11 +2144,6 @@
         "runtime": 127,
         "title": "Coming Home",
         "year": 1978
-    },
-    {
-        "year": 1980,
-        "title": "Superman II",
-        "runtime": 127
     },
     {
         "runtime": 127,
@@ -3287,11 +2167,6 @@
     },
     {
         "runtime": 129,
-        "title": "The Man Who Would Be King",
-        "year": 1975
-    },
-    {
-        "runtime": 129,
         "title": "The Year of the Hare",
         "year": 1977
     },
@@ -3302,53 +2177,13 @@
     },
     {
         "runtime": 129,
-        "title": "The Mystery of Oberwald",
-        "year": 1980
-    },
-    {
-        "year": 1980,
-        "title": "Raging Bull",
-        "runtime": 129
-    },
-    {
-        "runtime": 129,
         "title": "Galaxy Express 999",
         "year": 1979
     },
     {
         "runtime": 130,
-        "title": "The Story of Sin",
-        "year": 1975
-    },
-    {
-        "runtime": 130,
         "title": "Being There",
         "year": 1979
-    },
-    {
-        "runtime": 131,
-        "title": "Brubaker",
-        "year": 1980
-    },
-    {
-        "runtime": 131,
-        "title": "The Last Metro",
-        "year": 1980
-    },
-    {
-        "runtime": 131,
-        "title": "The Stunt Man",
-        "year": 1980
-    },
-    {
-        "runtime": 132,
-        "title": "Kenji Mizoguchi: The Life of a Film Director",
-        "year": 1975
-    },
-    {
-        "runtime": 132,
-        "title": "Bite the Bullet",
-        "year": 1975
     },
     {
         "runtime": 132,
@@ -3366,16 +2201,6 @@
         "year": 1979
     },
     {
-        "runtime": 132,
-        "title": "Urban Cowboy",
-        "year": 1980
-    },
-    {
-        "year": 1975,
-        "title": "One Flew Over the Cuckoo's Nest",
-        "runtime": 133
-    },
-    {
         "runtime": 133,
         "title": "That's Entertainment, Part II",
         "year": 1976
@@ -3384,16 +2209,6 @@
         "runtime": 133,
         "title": "Iskanderija... lih?",
         "year": 1979
-    },
-    {
-        "runtime": 133,
-        "title": "The Blues Brothers",
-        "year": 1980
-    },
-    {
-        "runtime": 133,
-        "title": "Rude Boy",
-        "year": 1980
     },
     {
         "runtime": 134,
@@ -3411,34 +2226,14 @@
         "year": 1978
     },
     {
-        "runtime": 134,
-        "title": "Fame",
-        "year": 1980
-    },
-    {
-        "runtime": 135,
-        "title": "The Magic Flute",
-        "year": 1975
-    },
-    {
         "runtime": 135,
         "title": "The Outlaw Josey Wales",
         "year": 1976
     },
     {
         "runtime": 136,
-        "title": "Funny Lady",
-        "year": 1975
-    },
-    {
-        "runtime": 136,
         "title": "Looking for Mr. Goodbar",
         "year": 1977
-    },
-    {
-        "runtime": 137,
-        "title": "They Fought for Their Country",
-        "year": 1975
     },
     {
         "year": 1977,
@@ -3471,16 +2266,6 @@
         "year": 1976
     },
     {
-        "runtime": 139,
-        "title": "City of Women",
-        "year": 1980
-    },
-    {
-        "runtime": 140,
-        "title": "My Friends",
-        "year": 1975
-    },
-    {
         "runtime": 140,
         "title": "The Desert of the Tartars",
         "year": 1976
@@ -3494,11 +2279,6 @@
         "runtime": 140,
         "title": "Perceval",
         "year": 1978
-    },
-    {
-        "runtime": 140,
-        "title": "The Age of the Earth",
-        "year": 1980
     },
     {
         "runtime": 142,
@@ -3522,33 +2302,8 @@
     },
     {
         "runtime": 144,
-        "title": "Dersu Uzala",
-        "year": 1975
-    },
-    {
-        "runtime": 144,
-        "title": "The Day of the Locust",
-        "year": 1975
-    },
-    {
-        "runtime": 144,
         "title": "Opening Night",
         "year": 1977
-    },
-    {
-        "runtime": 144,
-        "title": "Aakrosh",
-        "year": 1980
-    },
-    {
-        "runtime": 144,
-        "title": "Tsigoineruwaizen",
-        "year": 1980
-    },
-    {
-        "runtime": 144,
-        "title": "Ekipazh",
-        "year": 1980
     },
     {
         "runtime": 145,
@@ -3566,29 +2321,14 @@
         "year": 1979
     },
     {
-        "runtime": 145,
-        "title": "Sparsh",
-        "year": 1980
-    },
-    {
         "runtime": 146,
         "title": "Twilight's Last Gleaming",
         "year": 1977
     },
     {
-        "year": 1980,
-        "title": "The Shining",
-        "runtime": 146
-    },
-    {
         "runtime": 147,
         "title": "Bound for Glory",
         "year": 1976
-    },
-    {
-        "runtime": 150,
-        "title": "The Hiding Place",
-        "year": 1975
     },
     {
         "runtime": 150,
@@ -3604,21 +2344,6 @@
         "runtime": 150,
         "title": "Elvis",
         "year": 1979
-    },
-    {
-        "runtime": 150,
-        "title": "Moscow Does Not Believe in Tears",
-        "year": 1980
-    },
-    {
-        "runtime": 150,
-        "title": "Playing for Time",
-        "year": 1980
-    },
-    {
-        "runtime": 150,
-        "title": "La terrazza",
-        "year": 1980
     },
     {
         "runtime": 150,
@@ -3646,16 +2371,6 @@
         "year": 1977
     },
     {
-        "runtime": 156,
-        "title": "The Merchant of Venice",
-        "year": 1980
-    },
-    {
-        "runtime": 159,
-        "title": "Nashville",
-        "year": 1975
-    },
-    {
         "runtime": 159,
         "title": "Office Romance",
         "year": 1977
@@ -3664,21 +2379,6 @@
         "runtime": 160,
         "title": "Man of Marble",
         "year": 1977
-    },
-    {
-        "runtime": 162,
-        "title": "Sholay",
-        "year": 1975
-    },
-    {
-        "runtime": 162,
-        "title": "Kagemusha",
-        "year": 1980
-    },
-    {
-        "runtime": 162,
-        "title": "A Tale of Two Cities",
-        "year": 1980
     },
     {
         "runtime": 165,
@@ -3696,16 +2396,6 @@
         "year": 1977
     },
     {
-        "runtime": 173,
-        "title": "Palermo or Wolfsburg",
-        "year": 1980
-    },
-    {
-        "runtime": 174,
-        "title": "Deewaar",
-        "year": 1975
-    },
-    {
         "runtime": 175,
         "title": "Kings of the Road",
         "year": 1976
@@ -3721,16 +2411,6 @@
         "year": 1979
     },
     {
-        "runtime": 177,
-        "title": "Chronicle of the Years of Fire",
-        "year": 1975
-    },
-    {
-        "runtime": 179,
-        "title": "The Promised Land",
-        "year": 1975
-    },
-    {
         "runtime": 182,
         "title": "Belyy Bim Chernoe ukho",
         "year": 1977
@@ -3739,11 +2419,6 @@
         "year": 1978,
         "title": "The Deer Hunter",
         "runtime": 183
-    },
-    {
-        "runtime": 184,
-        "title": "Barry Lyndon",
-        "year": 1975
     },
     {
         "runtime": 184,
@@ -3761,49 +2436,14 @@
         "year": 1979
     },
     {
-        "runtime": 191,
-        "title": "La batalla de Chile: La lucha de un pueblo sin armas - Primera parte: La insurrecièn de la burguesèa",
-        "year": 1975
-    },
-    {
-        "runtime": 192,
-        "title": "Ironiya sudby, ili S legkim parom!",
-        "year": 1975
-    },
-    {
-        "runtime": 192,
-        "title": "Guyana Tragedy: The Story of Jim Jones",
-        "year": 1980
-    },
-    {
-        "runtime": 195,
-        "title": "The Falls",
-        "year": 1980
-    },
-    {
         "runtime": 198,
         "title": "Sybil",
         "year": 1976
     },
     {
-        "runtime": 200,
-        "title": "Kaseki",
-        "year": 1975
-    },
-    {
         "runtime": 206,
         "title": "Siberiade",
         "year": 1979
-    },
-    {
-        "runtime": 230,
-        "title": "The Travelling Players",
-        "year": 1975
-    },
-    {
-        "runtime": 235,
-        "title": "Alexander the Great",
-        "year": 1980
     },
     {
         "runtime": 240,
@@ -3816,11 +2456,6 @@
         "year": 1978
     },
     {
-        "runtime": 265,
-        "title": "Pride and Prejudice",
-        "year": 1980
-    },
-    {
         "runtime": 290,
         "title": "Tinker Tailor Soldier Spy",
         "year": 1979
@@ -3829,11 +2464,6 @@
         "runtime": 317,
         "title": "1900",
         "year": 1976
-    },
-    {
-        "runtime": 325,
-        "title": "Heaven's Gate",
-        "year": 1980
     },
     {
         "runtime": 382,

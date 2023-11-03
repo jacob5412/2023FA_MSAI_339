@@ -5,7 +5,7 @@ const dbCreds = JSON.parse(fs.readFileSync('db_creds.json'));
 
 const uri = `mongodb+srv://${dbCreds.username}:${dbCreds.password}@${dbCreds.url}/?retryWrites=true&w=majority`;
 const database = `${dbCreds.database}`;
-const query = { year: { $gte: 1975, $lte: 1980 } };
+const query = { year: { $gt: 1975, $lt: 1980 } };
 const projection = { title: true, year: true, runtime: true, _id: false };
 const sort = { runtime: 1 };
 const outputFilePath = 'output.json';

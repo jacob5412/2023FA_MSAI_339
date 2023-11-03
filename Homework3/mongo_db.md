@@ -104,7 +104,7 @@ local                 6.97 GiB
 
 ```javascript
 > db.movies.find({
-    year: { $gte: 1975, $lte: 1980 }
+    year: { $gt: 1975, $lt: 1980 }
     }, {
         title: true,
         year: true,
