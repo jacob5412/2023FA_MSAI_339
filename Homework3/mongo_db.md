@@ -124,7 +124,15 @@ local                 6.97 GiB
   title: 'Un uomo in ginocchio',
   year: 1979
 }
+...
+{
+  runtime: 9,
+  title: 'Powers of Ten',
+  year: 1977
+}
 ... and so on ...
 ```
+
+Note that some movies don't have a `runtime`, which is why they're not being displayed.
 
 There's a script called `retrieve_movies.js` that can be run using `node`. Ensure that you create a file called `db_creds.json` before you run the file. The full output is given in `movies_query_results.json`
