@@ -30,7 +30,7 @@ const pipeline = [
         }
     }
 ];
-const outputFilePath = 'output.json';
+const outputFilePath = 'movies_query_results.json';
 
 const client = new MongoClient(uri, {
     serverApi: {
