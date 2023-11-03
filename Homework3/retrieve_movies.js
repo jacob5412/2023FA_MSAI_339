@@ -50,7 +50,7 @@ async function run() {
         console.log('Ping result:', pingResult);
 
         // Create a cursor to read query
-        const cursor = await client.db(database).collection('movies').aggregate(pipeline);
+        const cursor = await client.db(database).collection('embedded_movies').aggregate(pipeline);
 
         // write to file through a write stream
         const fileStream = fs.createWriteStream(outputFilePath, { flags: 'w' });
