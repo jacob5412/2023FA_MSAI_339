@@ -9,11 +9,9 @@ show dbs
 2. Switch to Database:
 
 ```javascript
-use sample_mflix
-```
+> use sample_mflix
 
-```bash
-sample_airbnb        52.60 MiB
+< sample_airbnb        52.60 MiB
 sample_analytics      9.60 MiB
 sample_geospatial     1.26 MiB
 sample_guides        40.00 KiB
@@ -29,21 +27,17 @@ local                 6.97 GiB
 3. Show collections in current Database:
 
 ```javascript
-show collections
-```
+> show collections
 
-```bash
-switched to db sample_mflix
+< switched to db sample_mflix
 ```
 
 4. Figure out what the schema of the collection is.
 
 ```javascript
-db.movies.find().limit(1)
-```
+> db.movies.find().limit(1)
 
-```bash
-{
+< {
   _id: ObjectId("573a1390f29313caabcd42e8"),
   plot: 'A group of bandits stage a brazen train hold-up, only to find a determined posse hot on their heels.',
   genres: [
@@ -109,7 +103,7 @@ db.movies.find().limit(1)
    3. Order by `runtime` (asc or dsc).
 
 ```javascript
-db.movies.find({
+> db.movies.find({
     year: { $gte: 1975, $lte: 1980 }
     }, {
         title: true,
@@ -117,9 +111,8 @@ db.movies.find({
         runtime: true,
         _id: false
     }).sort({ runtime: 1 }) // -1 for dsc
-```
-```bash
-{
+
+> {
   title: 'Sentimentalnyy roman',
   year: 1977
 }
