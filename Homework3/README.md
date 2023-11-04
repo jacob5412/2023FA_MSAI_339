@@ -246,13 +246,21 @@ The output from the MongoDB compass:
 display(spark.sql("SELECT * FROM adult ORDER BY age asc, education_num asc LIMIT 5"))
 ```
 
-| age | workclass | fnlwgt | education | education_num | marital_status | occupation      | relationship   | race  | sex  | capital_gain | capital_loss | hours_per_week | native_country | income |
-| --- | --------- | ------ | --------- | ------------- | -------------- | --------------- | -------------- | ----- | ---- | ------------ | ------------ | -------------- | -------------- | ------ |
-| 17  | Private   | 270942 | 5th-6th   | 3             | Never-married  | Other-service   | Other-relative | White | Male | 0            | 0            | 48             | Mexico         | <=50K  |
-| 17  | Private   | 168807 | 7th-8th   | 4             | Never-married  | Craft-repair    | Not-in-family  | White | Male | 0            | 0            | 45             | United-States  | <=50K  |
-| 17  | Private   | 168203 | 7th-8th   | 4             | Never-married  | Farming-fishing | Other-relative | Other | Male | 0            | 0            | 40             | Mexico         | <=50K  |
-| 17  | Private   | 46402  | 7th-8th   | 4             | Never-married  | Sales           | Own-child      | White | Male | 0            | 0            | 8              | United-States  | <=50K  |
-| 17  | ?         | 127003 | 9th       | 5             | Never-married  | ?               | Own-child      | Black | Male | 0            | 0            | 40             | United-States  | <=50K  |
+| age | workclass | fnlwgt | education | education_num | marital_status | occupation      | ... |
+| --- | --------- | ------ | --------- | ------------- | -------------- | --------------- | --- |
+| 17  | Private   | 270942 | 5th-6th   | 3             | Never-married  | Other-service   | ... |
+| 17  | Private   | 168807 | 7th-8th   | 4             | Never-married  | Craft-repair    | ... |
+| 17  | Private   | 168203 | 7th-8th   | 4             | Never-married  | Farming-fishing | ... |
+| 17  | Private   | 46402  | 7th-8th   | 4             | Never-married  | Sales           | ... |
+| 17  | ?         | 127003 | 9th       | 5             | Never-married  | ?               | ... |
+
+| relationship   | race  | sex  | capital_gain | capital_loss | hours_per_week | native_country | income |
+| -------------- | ----- | ---- | ------------ | ------------ | -------------- | -------------- | ------ |
+| Other-relative | White | Male | 0            | 0            | 48             | Mexico         | <=50K  |
+| Not-in-family  | White | Male | 0            | 0            | 45             | United-States  | <=50K  |
+| Other-relative | Other | Male | 0            | 0            | 40             | Mexico         | <=50K  |
+| Own-child      | White | Male | 0            | 0            | 8              | United-States  | <=50K  |
+| Own-child      | Black | Male | 0            | 0            | 40             | United-States  | <=50K  |
 
 Output from the Databricks Notebook:
 
@@ -282,29 +290,35 @@ where
 """))
 ```
 
-| age | workclass    | fnlwgt | education | education_num | marital_status     | occupation       | relationship   | race  | sex    | capital_gain | capital_loss | hours_per_week | native_country | income | rank_ |
-| --- | ------------ | ------ | --------- | ------------- | ------------------ | ---------------- | -------------- | ----- | ------ | ------------ | ------------ | -------------- | -------------- | ------ | ----- |
-| 17  | Private      | 270942 | 5th-6th   | 3             | Never-married      | Other-service    | Other-relative | White | Male   | 0            | 0            | 48             | Mexico         | <=50K  | 1     |
-| 17  | Private      | 168807 | 7th-8th   | 4             | Never-married      | Craft-repair     | Not-in-family  | White | Male   | 0            | 0            | 45             | United-States  | <=50K  | 2     |
-| 17  | Private      | 168203 | 7th-8th   | 4             | Never-married      | Farming-fishing  | Other-relative | Other | Male   | 0            | 0            | 40             | Mexico         | <=50K  | 2     |
-| 17  | Private      | 46402  | 7th-8th   | 4             | Never-married      | Sales            | Own-child      | White | Male   | 0            | 0            | 8              | United-States  | <=50K  | 2     |
-| 17  | Private      | 191260 | 9th       | 5             | Never-married      | Other-service    | Own-child      | White | Male   | 1055         | 0            | 24             | United-States  | <=50K  | 3     |
-| 17  | Private      | 211870 | 9th       | 5             | Never-married      | Other-service    | Not-in-family  | White | Male   | 0            | 0            | 6              | United-States  | <=50K  | 3     |
-| 17  | Local-gov    | 32124  | 9th       | 5             | Never-married      | Other-service    | Own-child      | Black | Male   | 0            | 0            | 9              | United-States  | <=50K  | 3     |
-| 17  | ?            | 127003 | 9th       | 5             | Never-married      | ?                | Own-child      | Black | Male   | 0            | 0            | 40             | United-States  | <=50K  | 3     |
-| 17  | Private      | 221129 | 9th       | 5             | Married-civ-spouse | Other-service    | Husband        | White | Male   | 0            | 0            | 40             | United-States  | <=50K  | 3     |
-| 17  | ?            | 275778 | 9th       | 5             | Never-married      | ?                | Own-child      | White | Female | 0            | 0            | 25             | Mexico         | <=50K  | 3     |
-| 17  | Private      | 166290 | 9th       | 5             | Never-married      | Other-service    | Own-child      | White | Female | 0            | 0            | 20             | United-States  | <=50K  | 3     |
-| 17  | Private      | 73145  | 9th       | 5             | Never-married      | Craft-repair     | Own-child      | White | Female | 0            | 0            | 16             | United-States  | <=50K  | 3     |
-| 17  | Self-emp-inc | 413557 | 9th       | 5             | Never-married      | Sales            | Own-child      | White | Female | 0            | 0            | 40             | United-States  | <=50K  | 3     |
-| 17  | Private      | 133449 | 9th       | 5             | Never-married      | Other-service    | Own-child      | Black | Male   | 0            | 0            | 26             | United-States  | <=50K  | 3     |
-| 17  | Private      | 176467 | 9th       | 5             | Never-married      | Transport-moving | Not-in-family  | White | Male   | 0            | 0            | 20             | United-States  | <=50K  | 3     |
-| 17  | Private      | 225211 | 9th       | 5             | Never-married      | Other-service    | Own-child      | Black | Male   | 0            | 0            | 35             | United-States  | <=50K  | 3     |
-| 17  | Private      | 193769 | 9th       | 5             | Never-married      | Other-service    | Unmarried      | White | Male   | 0            | 0            | 20             | United-States  | <=50K  | 3     |
-| 17  | Private      | 53367  | 9th       | 5             | Never-married      | Other-service    | Own-child      | White | Female | 0            | 0            | 35             | United-States  | <=50K  | 3     |
-| 17  | Private      | 60562  | 9th       | 5             | Never-married      | Other-service    | Own-child      | White | Female | 0            | 0            | 20             | United-States  | <=50K  | 3     |
+| age | workclass    | fnlwgt | education | education_num | marital_status     | occupation      | ... |
+| --- | ------------ | ------ | --------- | ------------- | ------------------ | --------------- | --- |
+| 17  | Private      | 270942 | 5th-6th   | 3             | Never-married      | Other-service   | ... |
+| 17  | Private      | 168807 | 7th-8th   | 4             | Never-married      | Craft-repair    | ... |
+| 17  | Private      | 168203 | 7th-8th   | 4             | Never-married      | Farming-fishing | ... |
+| 17  | Private      | 46402  | 7th-8th   | 4             | Never-married      | Sales           | ... |
+| 17  | ?            | 127003 | 9th       | 5             | Never-married      | ?               | ... |
+| 17  | Private      | 221129 | 9th       | 5             | Married-civ-spouse | Other-service   | ... |
+| 17  | ?            | 275778 | 9th       | 5             | Never-married      | ?               | ... |
+| 17  | Private      | 166290 | 9th       | 5             | Never-married      | Other-service   | ... |
+| 17  | Private      | 73145  | 9th       | 5             | Never-married      | Craft-repair    | ... |
+| 17  | Self-emp-inc | 413557 | 9th       | 5             | Never-married      | Sales           | ... |
+| ... | ...          | ...    | ...       | ...           | ...                | ...             | ... |
 
-... and so forth ... the total is 347 rows ...
+| ... | relationship   | race  | sex    | capital_gain | capital_loss | hours_per_week | native_country | income | rank_ |
+| --- | -------------- | ----- | ------ | ------------ | ------------ | -------------- | -------------- | ------ | ----- |
+| ... | Other-relative | White | Male   | 0            | 0            | 48             | Mexico         | <=50K  | 1     |
+| ... | Not-in-family  | White | Male   | 0            | 0            | 45             | United-States  | <=50K  | 2     |
+| ... | Other-relative | Other | Male   | 0            | 0            | 40             | Mexico         | <=50K  | 2     |
+| ... | Own-child      | White | Male   | 0            | 0            | 8              | United-States  | <=50K  | 2     |
+| ... | Own-child      | Black | Male   | 0            | 0            | 40             | United-States  | <=50K  | 3     |
+| ... | Husband        | White | Male   | 0            | 0            | 40             | United-States  | <=50K  | 3     |
+| ... | Own-child      | White | Female | 0            | 0            | 25             | Mexico         | <=50K  | 3     |
+| ... | Own-child      | White | Female | 0            | 0            | 20             | United-States  | <=50K  | 3     |
+| ... | Own-child      | White | Female | 0            | 0            | 16             | United-States  | <=50K  | 3     |
+| ... | Own-child      | White | Female | 0            | 0            | 40             | United-States  | <=50K  | 3     |
+| ... | ...            | ...   | ...    | ...          | ...          | ...            | ...            | ...    | ...   |
+
+... and so on, resulting in a total of 347 rows.
 
 <img src="db_output2.png" alt="DB Output 2" width="1000">
 
