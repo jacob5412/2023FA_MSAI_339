@@ -1,357 +1,740 @@
 [
     {
+        "title": "Tyll the Giant",
+        "year": 1980,
+        "runtime": 14,
+        "rankRuntime": 1
+    },
+    {
         "title": "Pinocchio",
         "year": 1976,
-        "runtime": 73
+        "runtime": 73,
+        "rankRuntime": 2
+    },
+    {
+        "title": "Forbidden Zone",
+        "year": 1980,
+        "runtime": 74,
+        "rankRuntime": 3
     },
     {
         "title": "Allegro non troppo",
         "year": 1976,
-        "runtime": 75
+        "runtime": 75,
+        "rankRuntime": 4
     },
     {
         "title": "Wizards",
         "year": 1977,
-        "runtime": 80
+        "runtime": 80,
+        "rankRuntime": 5
     },
     {
         "title": "The Twelve Tasks of Asterix",
         "year": 1976,
-        "runtime": 82
+        "runtime": 82,
+        "rankRuntime": 6
     },
     {
         "title": "Nutcracker Fantasy",
         "year": 1979,
-        "runtime": 82
+        "runtime": 82,
+        "rankRuntime": 6
     },
     {
         "title": "Beauty and the Beast",
         "year": 1978,
-        "runtime": 83
+        "runtime": 83,
+        "rankRuntime": 7
+    },
+    {
+        "title": "The King and the Mockingbird",
+        "year": 1980,
+        "runtime": 83,
+        "rankRuntime": 7
     },
     {
         "title": "20th Century Oz",
         "year": 1976,
-        "runtime": 85
+        "runtime": 85,
+        "rankRuntime": 8
     },
     {
         "title": "The Big Bus",
         "year": 1976,
-        "runtime": 88
+        "runtime": 88,
+        "rankRuntime": 9
     },
     {
         "title": "Mad Max",
         "year": 1979,
-        "runtime": 88
+        "runtime": 88,
+        "rankRuntime": 9
     },
     {
         "title": "Sweeney!",
         "year": 1977,
-        "runtime": 89
+        "runtime": 89,
+        "rankRuntime": 10
     },
     {
         "title": "Buck Rogers in the 25th Century",
         "year": 1979,
-        "runtime": 89
+        "runtime": 89,
+        "rankRuntime": 10
     },
     {
         "title": "At the Earth's Core",
         "year": 1976,
-        "runtime": 89
+        "runtime": 89,
+        "rankRuntime": 10
+    },
+    {
+        "title": "Train Ride to Hollywood",
+        "year": 1975,
+        "runtime": 89,
+        "rankRuntime": 10
     },
     {
         "title": "Que Viva Mexico",
         "year": 1979,
-        "runtime": 90
+        "runtime": 90,
+        "rankRuntime": 11
+    },
+    {
+        "title": "The Apple",
+        "year": 1980,
+        "runtime": 90,
+        "rankRuntime": 11
     },
     {
         "title": "Animal",
         "year": 1977,
-        "runtime": 91
+        "runtime": 91,
+        "rankRuntime": 12
+    },
+    {
+        "title": "Monty Python and the Holy Grail",
+        "year": 1975,
+        "runtime": 91,
+        "rankRuntime": 12
+    },
+    {
+        "title": "Fatty Finn",
+        "year": 1980,
+        "runtime": 91,
+        "rankRuntime": 12
     },
     {
         "title": "Starcrash",
         "year": 1978,
-        "runtime": 92
+        "runtime": 92,
+        "rankRuntime": 13
+    },
+    {
+        "title": "The Chain Reaction",
+        "year": 1980,
+        "runtime": 92,
+        "rankRuntime": 13
+    },
+    {
+        "title": "Posse",
+        "year": 1975,
+        "runtime": 92,
+        "rankRuntime": 13
+    },
+    {
+        "title": "Nazareno Cruz and the Wolf",
+        "year": 1975,
+        "runtime": 92,
+        "rankRuntime": 13
+    },
+    {
+        "title": "Kenny Rogers as The Gambler",
+        "year": 1980,
+        "runtime": 94,
+        "rankRuntime": 14
+    },
+    {
+        "title": "Oh, God! Book II",
+        "year": 1980,
+        "runtime": 94,
+        "rankRuntime": 14
     },
     {
         "title": "Uno sceriffo extraterrestre... poco extra e molto terrestre",
         "year": 1979,
-        "runtime": 95
+        "runtime": 95,
+        "rankRuntime": 15
+    },
+    {
+        "title": "Kuruizaki sanda rodo",
+        "year": 1980,
+        "runtime": 95,
+        "rankRuntime": 15
+    },
+    {
+        "title": "Black Moon",
+        "year": 1975,
+        "runtime": 95,
+        "rankRuntime": 15
+    },
+    {
+        "title": "Harlequin",
+        "year": 1980,
+        "runtime": 95,
+        "rankRuntime": 15
+    },
+    {
+        "title": "Breakout",
+        "year": 1975,
+        "runtime": 96,
+        "rankRuntime": 16
     },
     {
         "title": "Smokey and the Bandit",
         "year": 1977,
-        "runtime": 96
+        "runtime": 96,
+        "rankRuntime": 16
     },
     {
         "title": "I Never Promised You a Rose Garden",
         "year": 1977,
-        "runtime": 96
+        "runtime": 96,
+        "rankRuntime": 16
+    },
+    {
+        "title": "Xanadu",
+        "year": 1980,
+        "runtime": 96,
+        "rankRuntime": 16
+    },
+    {
+        "title": "The Hunter",
+        "year": 1980,
+        "runtime": 97,
+        "rankRuntime": 17
     },
     {
         "title": "Crime Busters",
         "year": 1977,
-        "runtime": 98
+        "runtime": 98,
+        "rankRuntime": 18
     },
     {
         "title": "The Black Hole",
         "year": 1979,
-        "runtime": 98
+        "runtime": 98,
+        "rankRuntime": 18
     },
     {
         "title": "Oh, God!",
         "year": 1977,
-        "runtime": 98
+        "runtime": 98,
+        "rankRuntime": 18
     },
     {
         "title": "Arabian Adventure",
         "year": 1979,
-        "runtime": 98
+        "runtime": 98,
+        "rankRuntime": 18
     },
     {
         "title": "Deseos",
         "year": 1977,
-        "runtime": 98
+        "runtime": 98,
+        "rankRuntime": 18
     },
     {
         "title": "Hooper",
         "year": 1978,
-        "runtime": 99
+        "runtime": 99,
+        "rankRuntime": 19
+    },
+    {
+        "title": "Chissè perchè... capitano tutte a me",
+        "year": 1980,
+        "runtime": 99,
+        "rankRuntime": 19
     },
     {
         "title": "The Island of Dr. Moreau",
         "year": 1977,
-        "runtime": 99
+        "runtime": 99,
+        "rankRuntime": 19
+    },
+    {
+        "title": "Doc Savage: The Man of Bronze",
+        "year": 1975,
+        "runtime": 100,
+        "rankRuntime": 20
     },
     {
         "title": "The Shootist",
         "year": 1976,
-        "runtime": 100
+        "runtime": 100,
+        "rankRuntime": 20
+    },
+    {
+        "title": "The Long Riders",
+        "year": 1980,
+        "runtime": 100,
+        "rankRuntime": 20
     },
     {
         "title": "Mad Dog Morgan",
         "year": 1976,
-        "runtime": 102
+        "runtime": 102,
+        "rankRuntime": 21
     },
     {
         "title": "Telefon",
         "year": 1977,
-        "runtime": 102
+        "runtime": 102,
+        "rankRuntime": 21
     },
     {
         "title": "Circle of Iron",
         "year": 1978,
-        "runtime": 102
+        "runtime": 102,
+        "rankRuntime": 21
+    },
+    {
+        "title": "Hearts of the West",
+        "year": 1975,
+        "runtime": 102,
+        "rankRuntime": 21
+    },
+    {
+        "title": "The Final Countdown",
+        "year": 1980,
+        "runtime": 103,
+        "rankRuntime": 22
+    },
+    {
+        "title": "Resurrection",
+        "year": 1980,
+        "runtime": 103,
+        "rankRuntime": 22
+    },
+    {
+        "title": "Somewhere in Time",
+        "year": 1980,
+        "runtime": 103,
+        "rankRuntime": 22
+    },
+    {
+        "title": "Wholly Moses!",
+        "year": 1980,
+        "runtime": 103,
+        "rankRuntime": 22
+    },
+    {
+        "title": "Battle Beyond the Stars",
+        "year": 1980,
+        "runtime": 104,
+        "rankRuntime": 23
     },
     {
         "title": "Message from Space",
         "year": 1978,
-        "runtime": 105
+        "runtime": 105,
+        "rankRuntime": 24
     },
     {
         "title": "Message from Space",
         "year": 1978,
-        "runtime": 105
+        "runtime": 105,
+        "rankRuntime": 24
     },
     {
         "title": "The Brothers Lionheart",
         "year": 1977,
-        "runtime": 106
+        "runtime": 106,
+        "rankRuntime": 25
     },
     {
         "title": "Sleeping Dogs",
         "year": 1977,
-        "runtime": 107
+        "runtime": 107,
+        "rankRuntime": 26
     },
     {
         "title": "Cop or Hood",
         "year": 1979,
-        "runtime": 107
+        "runtime": 107,
+        "rankRuntime": 26
+    },
+    {
+        "title": "The Drowning Pool",
+        "year": 1975,
+        "runtime": 108,
+        "rankRuntime": 27
     },
     {
         "title": "The Next Man",
         "year": 1976,
-        "runtime": 108
+        "runtime": 108,
+        "rankRuntime": 27
     },
     {
         "title": "Io sto con gli ippopotami",
         "year": 1979,
-        "runtime": 108
+        "runtime": 108,
+        "rankRuntime": 27
+    },
+    {
+        "title": "Windwalker",
+        "year": 1980,
+        "runtime": 108,
+        "rankRuntime": 27
+    },
+    {
+        "title": "The Gods Must Be Crazy",
+        "year": 1980,
+        "runtime": 109,
+        "rankRuntime": 28
+    },
+    {
+        "title": "The Island",
+        "year": 1980,
+        "runtime": 109,
+        "rankRuntime": 28
+    },
+    {
+        "title": "Let's Do It Again",
+        "year": 1975,
+        "runtime": 110,
+        "rankRuntime": 29
     },
     {
         "title": "Man on the Roof",
         "year": 1976,
-        "runtime": 110
+        "runtime": 110,
+        "rankRuntime": 29
     },
     {
         "title": "Convoy",
         "year": 1978,
-        "runtime": 110
+        "runtime": 110,
+        "rankRuntime": 29
     },
     {
         "title": "Uppercut",
         "year": 1978,
-        "runtime": 110
+        "runtime": 110,
+        "rankRuntime": 29
+    },
+    {
+        "title": "Flash Gordon",
+        "year": 1980,
+        "runtime": 111,
+        "rankRuntime": 30
     },
     {
         "title": "Eagle's Wing",
         "year": 1979,
-        "runtime": 111
+        "runtime": 111,
+        "rankRuntime": 30
     },
     {
         "title": "Sinbad and the Eye of the Tiger",
         "year": 1977,
-        "runtime": 113
+        "runtime": 113,
+        "rankRuntime": 31
     },
     {
         "title": "The Concorde... Airport '79",
         "year": 1979,
-        "runtime": 113
+        "runtime": 113,
+        "rankRuntime": 31
     },
     {
         "title": "Bye Bye Monkey",
         "year": 1978,
-        "runtime": 113
+        "runtime": 113,
+        "rankRuntime": 31
     },
     {
         "title": "Silver Streak",
         "year": 1976,
-        "runtime": 114
+        "runtime": 114,
+        "rankRuntime": 32
     },
     {
         "title": "Aces High",
         "year": 1976,
-        "runtime": 114
+        "runtime": 114,
+        "rankRuntime": 32
     },
     {
         "title": "Every Which Way But Loose",
         "year": 1978,
-        "runtime": 114
+        "runtime": 114,
+        "rankRuntime": 32
     },
     {
         "title": "Go Tell the Spartans",
         "year": 1978,
-        "runtime": 114
+        "runtime": 114,
+        "rankRuntime": 32
     },
     {
         "title": "Beyond the Poseidon Adventure",
         "year": 1979,
-        "runtime": 114
+        "runtime": 114,
+        "rankRuntime": 32
+    },
+    {
+        "title": "The Kidnapping of the President",
+        "year": 1980,
+        "runtime": 114,
+        "rankRuntime": 32
     },
     {
         "title": "Face to Face",
         "year": 1976,
-        "runtime": 114
+        "runtime": 114,
+        "rankRuntime": 32
     },
     {
         "title": "Flatfoot in Africa",
         "year": 1978,
-        "runtime": 115
+        "runtime": 115,
+        "rankRuntime": 33
+    },
+    {
+        "title": "Raise the Titanic",
+        "year": 1980,
+        "runtime": 115,
+        "rankRuntime": 33
+    },
+    {
+        "title": "Bronco Billy",
+        "year": 1980,
+        "runtime": 116,
+        "rankRuntime": 34
     },
     {
         "title": "Comes a Horseman",
         "year": 1978,
-        "runtime": 118
+        "runtime": 118,
+        "rankRuntime": 35
+    },
+    {
+        "title": "French Connection II",
+        "year": 1975,
+        "runtime": 119,
+        "rankRuntime": 36
+    },
+    {
+        "title": "The Wind and the Lion",
+        "year": 1975,
+        "runtime": 119,
+        "rankRuntime": 36
     },
     {
         "title": "Logan's Run",
         "year": 1976,
-        "runtime": 119
+        "runtime": 119,
+        "rankRuntime": 36
+    },
+    {
+        "title": "India Song",
+        "year": 1975,
+        "runtime": 120,
+        "rankRuntime": 37
     },
     {
         "title": "Star Wars: Episode IV - A New Hope",
         "year": 1977,
-        "runtime": 121
+        "runtime": 121,
+        "rankRuntime": 38
     },
     {
         "title": "The Electric Horseman",
         "year": 1979,
-        "runtime": 121
+        "runtime": 121,
+        "rankRuntime": 38
     },
     {
         "title": "Capricorn One",
         "year": 1977,
-        "runtime": 123
+        "runtime": 123,
+        "rankRuntime": 39
     },
     {
         "title": "Buffalo Bill and the Indians, or Sitting Bull's History Lesson",
         "year": 1976,
-        "runtime": 123
+        "runtime": 123,
+        "rankRuntime": 39
+    },
+    {
+        "title": "Star Wars: Episode V - The Empire Strikes Back",
+        "year": 1980,
+        "runtime": 124,
+        "rankRuntime": 40
+    },
+    {
+        "title": "Rollerball",
+        "year": 1975,
+        "runtime": 125,
+        "rankRuntime": 41
     },
     {
         "title": "The Spy Who Loved Me",
         "year": 1977,
-        "runtime": 125
+        "runtime": 125,
+        "rankRuntime": 41
     },
     {
         "title": "Who'll Stop the Rain",
         "year": 1978,
-        "runtime": 126
+        "runtime": 126,
+        "rankRuntime": 42
     },
     {
         "title": "Moonraker",
         "year": 1979,
-        "runtime": 126
+        "runtime": 126,
+        "rankRuntime": 42
+    },
+    {
+        "title": "A Genius, Two Friends, and an Idiot",
+        "year": 1975,
+        "runtime": 126,
+        "rankRuntime": 42
+    },
+    {
+        "title": "Mandingo",
+        "year": 1975,
+        "runtime": 127,
+        "rankRuntime": 43
+    },
+    {
+        "title": "Superman II",
+        "year": 1980,
+        "runtime": 127,
+        "rankRuntime": 43
     },
     {
         "title": "The Slipper and the Rose: The Story of Cinderella",
         "year": 1976,
-        "runtime": 127
+        "runtime": 127,
+        "rankRuntime": 43
     },
     {
         "title": "Pete's Dragon",
         "year": 1977,
-        "runtime": 128
+        "runtime": 128,
+        "rankRuntime": 44
+    },
+    {
+        "title": "The Stunt Man",
+        "year": 1980,
+        "runtime": 131,
+        "rankRuntime": 45
+    },
+    {
+        "title": "Bite the Bullet",
+        "year": 1975,
+        "runtime": 132,
+        "rankRuntime": 46
+    },
+    {
+        "title": "Urban Cowboy",
+        "year": 1980,
+        "runtime": 132,
+        "rankRuntime": 46
     },
     {
         "title": "The Lord of the Rings",
         "year": 1978,
-        "runtime": 132
+        "runtime": 132,
+        "rankRuntime": 46
+    },
+    {
+        "title": "The Blues Brothers",
+        "year": 1980,
+        "runtime": 133,
+        "rankRuntime": 47
     },
     {
         "title": "The Wild Geese",
         "year": 1978,
-        "runtime": 134
+        "runtime": 134,
+        "rankRuntime": 48
     },
     {
         "title": "King Kong",
         "year": 1976,
-        "runtime": 134
+        "runtime": 134,
+        "rankRuntime": 48
     },
     {
         "title": "The Wiz",
         "year": 1978,
-        "runtime": 134
+        "runtime": 134,
+        "rankRuntime": 48
     },
     {
         "title": "The Outlaw Josey Wales",
         "year": 1976,
-        "runtime": 135
+        "runtime": 135,
+        "rankRuntime": 49
+    },
+    {
+        "title": "The Magic Flute",
+        "year": 1975,
+        "runtime": 135,
+        "rankRuntime": 49
     },
     {
         "title": "Black Sunday",
         "year": 1977,
-        "runtime": 143
+        "runtime": 143,
+        "rankRuntime": 50
     },
     {
         "title": "Superman",
         "year": 1978,
-        "runtime": 143
+        "runtime": 143,
+        "rankRuntime": 50
+    },
+    {
+        "title": "Ekipazh",
+        "year": 1980,
+        "runtime": 144,
+        "rankRuntime": 51
+    },
+    {
+        "title": "Sholay",
+        "year": 1975,
+        "runtime": 162,
+        "rankRuntime": 52
     },
     {
         "title": "Don",
         "year": 1978,
-        "runtime": 166
+        "runtime": 166,
+        "rankRuntime": 53
+    },
+    {
+        "title": "Deewaar",
+        "year": 1975,
+        "runtime": 174,
+        "rankRuntime": 54
     },
     {
         "title": "Amar Akbar Anthony",
         "year": 1977,
-        "runtime": 184
+        "runtime": 184,
+        "rankRuntime": 55
     },
     {
         "title": "Centennial",
         "year": 1978,
-        "runtime": 1256
+        "runtime": 1256,
+        "rankRuntime": 56
     }
 ]
