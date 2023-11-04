@@ -304,7 +304,7 @@ where
 | 17  | Private      | 53367  | 9th       | 5             | Never-married      | Other-service    | Own-child      | White | Female | 0            | 0            | 35             | United-States  | <=50K  | 3     |
 | 17  | Private      | 60562  | 9th       | 5             | Never-married      | Other-service    | Own-child      | White | Female | 0            | 0            | 20             | United-States  | <=50K  | 3     |
 
-... and so forth ...
+... and so forth ... the total is 347 rows ...
 
 <img src="db_output2.png" alt="DB Output 2" width="1000">
 
