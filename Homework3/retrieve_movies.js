@@ -8,17 +8,30 @@ const database = `${dbCreds.database}`;
 const pipeline = [
     {
         $match: {
-            year: { $gt: 1975, $lt: 1980 }
+            year: { $gte: 1975, $lte: 1980 }
         }
     },
     {
-        $sort: { runtime: 1 }
+        $setWindowFields: {
+            sortBy: { runtime: 1 },
+            output: {
+                rankRuntime: {
+                    $denseRank: {}
+                }
+            }
+        }
+    },
+    {
+        $sort: {
+            rankRuntime: 1
+        }
     },
     {
         $project: {
             title: 1,
             year: 1,
             runtime: 1,
+            rankRuntime: 1,
             _id: 0
         }
     },
@@ -26,7 +39,8 @@ const pipeline = [
         $project: {
             title: "$title",
             year: "$year",
-            runtime: "$runtime"
+            runtime: "$runtime",
+            rankRuntime: "$rankRuntime"
         }
     }
 ];

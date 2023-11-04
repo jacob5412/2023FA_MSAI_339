@@ -47,7 +47,7 @@ The following displays the first 5 results in ascending order of runtime:
 > db.embedded_movies.aggregate([
   {
     $match: {
-      year: { $gt: 1975, $lt: 1980 }
+      year: { $gte: 1975, $lte: 1980 }
     }
   },
   {
@@ -72,32 +72,6 @@ The following displays the first 5 results in ascending order of runtime:
     }
   }
 ])
-
-> {
-  title: 'Pinocchio',
-  year: 1976,
-  runtime: 73
-}
-{
-  title: 'Allegro non troppo',
-  year: 1976,
-  runtime: 75
-}
-{
-  title: 'Wizards',
-  year: 1977,
-  runtime: 80
-}
-{
-  title: 'Nutcracker Fantasy',
-  year: 1979,
-  runtime: 82
-}
-{
-  title: 'The Twelve Tasks of Asterix',
-  year: 1976,
-  runtime: 82
-}
 ```
 
 The output from the MongoDB compass:
@@ -112,7 +86,7 @@ The following displays the top 5 as ranked outputs in ascending order of runtime
 > db.embedded_movies.aggregate([
   {
     $match: {
-      year: { $gt: 1975, $lt: 1980 }
+      year: { $gte: 1975, $lte: 1980 }
     }
   },
   {
@@ -131,6 +105,11 @@ The following displays the top 5 as ranked outputs in ascending order of runtime
   }
   },
   {
+    $sort: {
+      rankRuntime: 1
+    }
+  },
+  {
     $project: {
       title: 1,
       year: 1,
@@ -146,37 +125,6 @@ The following displays the top 5 as ranked outputs in ascending order of runtime
     }
   }
 ])
-
-< {
-  title: 'Pinocchio',
-  year: 1976,
-  runtime: 73
-}
-{
-  title: 'Allegro non troppo',
-  year: 1976,
-  runtime: 75
-}
-{
-  title: 'Wizards',
-  year: 1977,
-  runtime: 80
-}
-{
-  title: 'The Twelve Tasks of Asterix',
-  year: 1976,
-  runtime: 82
-}
-{
-  title: 'Nutcracker Fantasy',
-  year: 1979,
-  runtime: 82
-}
-{
-  title: 'Beauty and the Beast',
-  year: 1978,
-  runtime: 83
-}
 ```
 
 <img src="mdb_output2.png" alt="MDB Output 2" width="1000">
@@ -204,31 +152,6 @@ The following displays the top 5 as ranked outputs in ascending order of runtime
     }
   }
 ]).sort({ year: 1 })
-
-< {
-  year: 1975,
-  sumRuntime: 2314
-}
-{
-  year: 1976,
-  sumRuntime: 1892
-}
-{
-  year: 1977,
-  sumRuntime: 2097
-}
-{
-  year: 1978,
-  sumRuntime: 3471
-}
-{
-  year: 1979,
-  sumRuntime: 1440
-}
-{
-  year: 1980,
-  sumRuntime: 3303
-}
 ```
 
 The output from the MongoDB compass:
