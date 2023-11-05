@@ -163,10 +163,16 @@ The output from the MongoDB compass:
 * Notebook that was used can be found in `Databricks_Exercise.ipynb`.
 * You can also find the notebook published on [databricks-prod-cloudfront](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/5464819398435225/2786829960718927/6325479124959666/latest.html)
 * Output for "Display top 5 rows ordered in ascending order by `age` and ascending order by `education_num`" is given below.
-* We're using SparkSQL instead of PySpark.
 
 ```python
-display(spark.sql("SELECT * FROM adult ORDER BY age asc, education_num asc LIMIT 5"))
+df = (
+  spark.read
+  .format("csv")
+  .option("header", "false")
+  .schema(adultSchema)
+  .load("/databricks-datasets/adult/adult.data")
+)
+display(df.sort(['age', 'education_num'], ascending=[True, True]).head(5))
 ```
 
 | age | workclass | fnlwgt | education | education_num | marital_status | occupation      | ... |
@@ -192,25 +198,12 @@ Output from the Databricks Notebook:
 If we're considering top 5 by rank, then we get:
 
 ```python
-display(spark.sql(
-"""
-SELECT
-    *
-FROM
-    (
-        SELECT
-            *,
-            ROW_NUMBER() over (
-                ORDER BY
-                    age asc,
-                    education_num asc
-            ) as rank_
-        FROM
-            adult
-    )
-where
-    rank_ <= 5
-"""))
+import pyspark.sql.functions as F
+from pyspark.sql.window import Window
+
+window_spec = Window.orderBy("age", "education_num")
+df = df.withColumn("DenseRank", F.dense_rank().over(window_spec))
+display(df[df['DenseRank'] <= 5])
 ```
 
 | age | workclass    | fnlwgt | education | education_num | marital_status     | occupation      | ... |
