@@ -165,6 +165,28 @@ The output from the MongoDB compass:
 * Output for "Display top 5 rows ordered in ascending order by `age` and ascending order by `education_num`" is given below.
 
 ```python
+from pyspark.sql.types import StructType
+from pyspark.sql.types import StructField , IntegerType, StringType, DoubleType
+ 
+adultSchema = StructType([
+    StructField("age", DoubleType(), True),        
+    StructField("workclass", StringType(), True),
+    StructField("fnlwgt", DoubleType(), True),
+    StructField("education", StringType(), True),
+    StructField("education_num", DoubleType(), True),
+    StructField("marital_status", StringType(), True),
+    StructField("occupation", StringType(), True),   
+    StructField("relationship", StringType(), True),
+    StructField("race", StringType(), True),
+    StructField("sex", StringType(), True),
+    StructField("capital_gain", DoubleType(), True),   
+    StructField("capital_loss", DoubleType(), True),
+    StructField("hours_per_week", DoubleType(), True),
+    StructField("native_country", StringType(), True),
+    StructField("income", StringType(), True),
+ 
+])
+
 df = (
   spark.read
   .format("csv")
@@ -172,6 +194,7 @@ df = (
   .schema(adultSchema)
   .load("/databricks-datasets/adult/adult.data")
 )
+
 display(df.sort(['age', 'education_num'], ascending=[True, True]).head(5))
 ```
 
