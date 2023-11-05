@@ -163,7 +163,6 @@ The output from the MongoDB compass:
 * Notebook that was used can be found in `Databricks_Exercise.ipynb`.
 * You can also find the notebook published on [databricks-prod-cloudfront](https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/5464819398435225/2786829960718927/6325479124959666/latest.html)
 * Output for "Display top 5 rows ordered in ascending order by `age` and ascending order by `education_num`" is given below.
-* We're using SparkSQL instead of PySpark.
 
 ```python
 display(spark.sql("SELECT * FROM adult ORDER BY age asc, education_num asc LIMIT 5"))
