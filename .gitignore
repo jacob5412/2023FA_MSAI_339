@@ -296,3 +296,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# project files
+Homework4/data/train.csv
