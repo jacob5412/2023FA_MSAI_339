@@ -298,4 +298,4 @@ dist
 .pnp.*
 
 # project files
-Homework4/data/train.csv
+Homework4/data/*
