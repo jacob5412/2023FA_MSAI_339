@@ -296,3 +296,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# project files
+Homework4/data/*
+Homework4/osrm-backend-nyc/*
+Homework4/mlruns/*
