@@ -299,3 +299,5 @@ dist
 
 # project files
 Homework4/data/*
+Homework4/osrm-backend-nyc/*
+Homework4/mlruns/*
